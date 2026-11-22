@@ -13,7 +13,7 @@
   <br /><br />
 
   <!-- CONTRIBUTOR SECTION: Arcade Shooter Heatmap (Animated Spaceship Continuous Fire) -->
-  <img src="./assets/contribution-shooter.svg" width="800" alt="GitHub Contribution Space Arcade" />
+  <img src="./assets/contribution-arcade-battle.svg" width="800" alt="GitHub Contribution Space Arcade" />
 
   <br />
 
