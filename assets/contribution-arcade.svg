@@ -29,7 +29,7 @@
   </defs>
 
   <style>
-    /* Continuous Laser Shooting Animation */
+  <![CDATA[
     @keyframes fireBolt1 {
       0% {
         transform: translate(646px, 157px);
@@ -74,7 +74,6 @@
       }
     }
 
-    /* Target Hit Explosion Animation */
     @keyframes hitExplosion1 {
       0%, 35% {
         transform: scale(0.2);
@@ -111,7 +110,6 @@
       }
     }
 
-    /* Spaceship Hover Float & Recoil */
     @keyframes shipFlight {
       0%, 100% {
         transform: translateY(0px) rotate(0deg);
@@ -120,17 +118,16 @@
         transform: translateY(-2px) rotate(-1deg);
       }
       38% {
-        transform: translateY(1.5px) rotate(0deg); /* Recoil on fire */
+        transform: translateY(1.5px) rotate(0deg);
       }
       75% {
         transform: translateY(-3px) rotate(1deg);
       }
       88% {
-        transform: translateY(1.5px) rotate(0deg); /* Recoil on fire */
+        transform: translateY(1.5px) rotate(0deg);
       }
     }
 
-    /* Thruster Flame Flicker */
     @keyframes flameFlicker {
       0%, 100% {
         transform: scaleY(1);
@@ -142,7 +139,6 @@
       }
     }
 
-    /* Target Rings Pulse */
     @keyframes targetPulse {
       0%, 100% {
         transform: scale(1);
@@ -185,19 +181,20 @@
       transform-box: fill-box;
       transform-origin: center;
     }
+  ]]>
   </style>
 
   <!-- Arcade Container Background -->
   <rect x="5" y="5" width="790" height="210" rx="16" fill="url(#arcadeBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1.5" />
 
-  <!-- Twinkling Micro Stars -->
+  <!-- Micro Stars -->
   <circle cx="25" cy="30" r="1" fill="#ffffff" opacity="0.3" />
   <circle cx="755" cy="55" r="1" fill="#ffffff" opacity="0.3" />
   <circle cx="25" cy="180" r="1" fill="#ffffff" opacity="0.2" />
   <circle cx="755" cy="185" r="1" fill="#ffffff" opacity="0.2" />
   <circle cx="400" cy="195" r="1" fill="#ffffff" opacity="0.2" />
 
-  <!-- The GitHub Contribution Heatmap Grid -->
+  <!-- Contribution Heatmap Grid -->
   <g>
     <rect x="77" y="30" width="13" height="13" rx="3" fill="#161b22" opacity="0.6" />
 <rect x="77" y="47" width="13" height="13" rx="3" fill="#161b22" opacity="0.6" />
@@ -519,16 +516,11 @@
     <!-- Thruster Flame -->
     <polygon class="flame" points="643,191 646,201 649,191" fill="url(#thrusterGrad)" />
 
-    <!-- Spaceship Body (Arcade Delta Wing) -->
-    <!-- Left Wing -->
+    <!-- Spaceship Body -->
     <path d="M646 165 L633 191 L641 187 Z" fill="#0099ff" />
-    <!-- Right Wing -->
     <path d="M646 165 L659 191 L651 187 Z" fill="#0099ff" />
-    <!-- Center Fuselage -->
     <polygon points="646,163 640,189 646,186 652,189" fill="#00f2fe" />
-    <!-- Cockpit Canopy Glass -->
     <polygon points="646,169 643,179 646,181 649,179" fill="#ffffff" opacity="0.9" />
-    <!-- Wing Cannon Highlights -->
     <circle cx="635" cy="190" r="1.5" fill="#00f2fe" />
     <circle cx="657" cy="190" r="1.5" fill="#00f2fe" />
   </g>
