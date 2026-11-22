@@ -1,7 +1,7 @@
 <div align="center">
 
-  <!-- TOP SECTION: Animated Collector Card + Stats Panel -->
-  <img src="./assets/card-animated.svg" width="375" alt="Rizal Zaky Collector Card" />
+  <!-- TOP SECTION: Animated Collector Card + Stats Header -->
+  <img src="./assets/card-animated.svg" width="375" alt="Rizal Zaky Animated Collector Card" />
   &nbsp;&nbsp;
   <img src="./assets/stats-panel.svg" width="415" alt="Profile Stats" />
 
@@ -9,6 +9,18 @@
 
   <!-- MIDDLE SECTION: Collector Card Bio Banner -->
   <img src="./assets/collector-banner.svg" width="800" alt="Collector Card Bio" />
+
+  <br /><br />
+
+  <!-- CONTRIBUTOR SECTION: Arcade Shooter Heatmap (Animated Spaceship Continuous Fire) -->
+  <img src="./assets/contribution-arcade.svg" width="800" alt="GitHub Contribution Space Arcade" />
+
+  <br />
+
+  <!-- PROFILE SIGNAL: Live Stats & GitHub Badge -->
+  <a href="https://github.com/rizalzaky23">
+    <img src="./assets/profile-signal.svg" width="800" alt="Profile Signal Stats" />
+  </a>
 
   <br /><br />
 
