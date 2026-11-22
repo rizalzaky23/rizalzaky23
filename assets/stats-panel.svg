@@ -1,0 +1,70 @@
+<svg width="400" height="460" viewBox="0 0 400 460" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="boxBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111625" />
+      <stop offset="100%" stop-color="#0e121d" />
+    </linearGradient>
+    <linearGradient id="statGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#4facfe" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    }
+    .stat-num {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+    .stat-card {
+      transition: all 0.3s ease;
+    }
+    @keyframes pulseCyan {
+      0%, 100% { fill: #00f2fe; }
+      50% { fill: #38ef7d; }
+    }
+    .accent-cyan {
+      animation: pulseCyan 6s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- Header Info -->
+  <g transform="translate(10, 45)">
+    <text x="0" y="0" fill="#8b949e" font-size="10.5" font-weight="700" letter-spacing="2.2">COLLECTOR'S EDITION  •  2026</text>
+    <text x="0" y="42" fill="#ffffff" font-size="34" font-weight="900" letter-spacing="-0.5">@rizalzaky23</text>
+    <text x="0" y="72" fill="#8b949e" font-size="14.5" font-weight="500">Dart  •  JavaScript developer</text>
+  </g>
+
+  <!-- 4 Stat Boxes (2x2 Grid) -->
+  <!-- Box 1: Stars -->
+  <g transform="translate(10, 160)" class="stat-card">
+    <rect width="180" height="95" rx="14" fill="url(#boxBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+    <text x="20" y="48" class="stat-num" fill="#00f2fe" font-size="30" font-weight="800">1</text>
+    <text x="20" y="74" fill="#8b949e" font-size="10.5" font-weight="700" letter-spacing="1.4">STARS</text>
+  </g>
+
+  <!-- Box 2: Followers -->
+  <g transform="translate(210, 160)" class="stat-card">
+    <rect width="180" height="95" rx="14" fill="url(#boxBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+    <text x="20" y="48" class="stat-num" fill="#00f2fe" font-size="30" font-weight="800">12</text>
+    <text x="20" y="74" fill="#8b949e" font-size="10.5" font-weight="700" letter-spacing="1.4">FOLLOWERS</text>
+  </g>
+
+  <!-- Box 3: Contributions -->
+  <g transform="translate(10, 275)" class="stat-card">
+    <rect width="180" height="95" rx="14" fill="url(#boxBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+    <text x="20" y="48" class="stat-num accent-cyan" fill="#00f2fe" font-size="30" font-weight="800">434</text>
+    <text x="20" y="74" fill="#8b949e" font-size="10.5" font-weight="700" letter-spacing="1.4">CONTRIBUTIONS</text>
+  </g>
+
+  <!-- Box 4: Day Streak -->
+  <g transform="translate(210, 275)" class="stat-card">
+    <rect width="180" height="95" rx="14" fill="url(#boxBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+    <text x="20" y="48" class="stat-num" fill="#00f2fe" font-size="30" font-weight="800">0</text>
+    <text x="20" y="74" fill="#8b949e" font-size="10.5" font-weight="700" letter-spacing="1.4">DAY STREAK</text>
+  </g>
+
+  <!-- Watermark Credit -->
+  <text x="390" y="415" text-anchor="end" fill="#6e7681" font-size="10" font-weight="500" letter-spacing="0.5">gitskins.com</text>
+</svg>
